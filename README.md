@@ -230,7 +230,3 @@ users (autenticación)
 - **Paginación estándar**: `?page=` (desde 1) y `?limit=` (1–100) en listas, con respuesta `{ data, pagination }`.
 
 ---
-
-## Nota sobre la base de datos
-
-Si modificás el schema, eliminá `data/voting.db` antes de reiniciar para que se regenere — `CREATE TABLE IF NOT EXISTS` no altera tablas existentes.
